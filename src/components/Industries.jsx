@@ -3,12 +3,12 @@ import { Building2, GraduationCap, Heart, Truck, ShoppingBag, Factory } from 'lu
 
 const Industries = () => {
     const industries = [
-        { name: "Maliyyə və Bankçılıq", icon: Building2 },
-        { name: "Təhsil", icon: GraduationCap },
-        { name: "Səhiyyə", icon: Heart },
-        { name: "Logistika", icon: Truck },
-        { name: "Pərakəndə Satış", icon: ShoppingBag },
-        { name: "İstehsalat", icon: Factory },
+        { name: "Finance & Banking", icon: Building2 },
+        { name: "Education", icon: GraduationCap },
+        { name: "Healthcare", icon: Heart },
+        { name: "Logistics", icon: Truck },
+        { name: "Retail", icon: ShoppingBag },
+        { name: "Manufacturing", icon: Factory },
     ];
 
     const containerVariants = {
@@ -43,10 +43,10 @@ const Industries = () => {
                     className="text-center mb-16"
                 >
                     <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                        Hansı Sahələr Üçün?
+                        Industries We Serve
                     </h2>
                     <p className="text-lg text-gray-600">
-                        Müxtəlif sektorlarda ixtisaslaşmış xidmətlər
+                        Specialized services across multiple sectors
                     </p>
                 </motion.div>
 

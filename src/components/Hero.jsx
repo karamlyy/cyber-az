@@ -26,7 +26,7 @@ const Hero = () => {
                     transition={{ duration: 0.8 }}
                     className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight"
                 >
-                    Biznesiniz üçün Müasir İT və Şəbəkə Həlləri
+                    Modern IT & Network Solutions for Your Business
                 </motion.h1>
 
                 <motion.p
@@ -35,7 +35,7 @@ const Hero = () => {
                     transition={{ duration: 0.8, delay: 0.2 }}
                     className="text-lg md:text-xl mb-10 text-gray-200"
                 >
-                    İnfrastrukturunuzu gücləndirin və rəqəmsal gələcəyə bizimlə addımlayın
+                    Strengthen your infrastructure and step into the digital future with us
                 </motion.p>
 
                 <motion.div
@@ -48,13 +48,13 @@ const Hero = () => {
                         onClick={() => handleScroll('services')}
                         className="bg-primary hover:bg-secondary text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
                     >
-                        Xidmətlərimiz
+                        Our Services
                     </button>
                     <button
                         onClick={() => handleScroll('contact')}
                         className="bg-transparent border-2 border-white hover:bg-white hover:text-primary text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105"
                     >
-                        Pulsuz Konsultasiya
+                        Free Consultation
                     </button>
                 </motion.div>
             </div>

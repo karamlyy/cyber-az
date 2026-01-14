@@ -13,7 +13,7 @@ const Contact = () => {
         e.preventDefault();
         // Handle form submission logic here
         console.log('Form submitted:', formData);
-        alert('Mesajınız göndərildi!');
+        alert('Your message has been sent!');
         setFormData({ name: '', email: '', message: '' });
     };
 
@@ -27,12 +27,12 @@ const Contact = () => {
     const contactInfo = [
         {
             icon: MapPin,
-            title: "Ünvan",
-            content: "Bakı şəhəri, Mərkəzi Plaza",
+            title: "Address",
+            content: "Baku, Central Plaza",
         },
         {
             icon: Phone,
-            title: "Telefon",
+            title: "Phone",
             content: "+994 50 000 00 00",
         },
         {
@@ -53,10 +53,10 @@ const Contact = () => {
                     className="text-center mb-16"
                 >
                     <h2 className="text-4xl md:text-5xl font-bold mb-4">
-                        Bizimlə Əlaqə
+                        Contact Us
                     </h2>
                     <p className="text-lg text-gray-300">
-                        Sualllarınız varsa, bizimlə əlaqə saxlayın
+                        Have questions? Get in touch with us
                     </p>
                 </motion.div>
 
@@ -71,7 +71,7 @@ const Contact = () => {
                         <form onSubmit={handleSubmit} className="space-y-6">
                             <div>
                                 <label htmlFor="name" className="block text-sm font-medium mb-2">
-                                    Adınız
+                                    Your Name
                                 </label>
                                 <input
                                     type="text"
@@ -81,7 +81,7 @@ const Contact = () => {
                                     onChange={handleChange}
                                     required
                                     className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-300 text-white placeholder-gray-400"
-                                    placeholder="Adınızı daxil edin"
+                                    placeholder="Enter your name"
                                 />
                             </div>
 
@@ -97,13 +97,13 @@ const Contact = () => {
                                     onChange={handleChange}
                                     required
                                     className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-300 text-white placeholder-gray-400"
-                                    placeholder="emailiniz@example.com"
+                                    placeholder="youremail@example.com"
                                 />
                             </div>
 
                             <div>
                                 <label htmlFor="message" className="block text-sm font-medium mb-2">
-                                    Mesajınız
+                                    Your Message
                                 </label>
                                 <textarea
                                     id="message"
@@ -113,7 +113,7 @@ const Contact = () => {
                                     required
                                     rows="5"
                                     className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-300 text-white placeholder-gray-400 resize-none"
-                                    placeholder="Mesajınızı buraya yazın..."
+                                    placeholder="Write your message here..."
                                 />
                             </div>
 
@@ -124,7 +124,7 @@ const Contact = () => {
                                 className="w-full bg-primary hover:bg-secondary text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 flex items-center justify-center gap-2 shadow-lg"
                             >
                                 <Send size={20} />
-                                Göndər
+                                Send Message
                             </motion.button>
                         </form>
                     </motion.div>
@@ -164,7 +164,7 @@ const Contact = () => {
                             );
                         })}
 
-                        {/* Map or additional info could go here */}
+                        {/* Business Hours */}
                         <motion.div
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
@@ -172,11 +172,11 @@ const Contact = () => {
                             transition={{ duration: 0.8, delay: 0.4 }}
                             className="mt-8 p-6 bg-white/10 rounded-xl backdrop-blur-sm border border-white/20"
                         >
-                            <h3 className="text-lg font-semibold mb-3">İş Saatları</h3>
+                            <h3 className="text-lg font-semibold mb-3">Business Hours</h3>
                             <div className="space-y-2 text-gray-300">
-                                <p>Bazar ertəsi - Cümə: 09:00 - 18:00</p>
-                                <p>Şənbə: 10:00 - 15:00</p>
-                                <p>Bazar: Qeyri-iş günü</p>
+                                <p>Monday - Friday: 09:00 - 18:00</p>
+                                <p>Saturday: 10:00 - 15:00</p>
+                                <p>Sunday: Closed</p>
                             </div>
                         </motion.div>
                     </motion.div>

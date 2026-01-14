@@ -3,23 +3,23 @@ import { Server, ShieldCheck, Wifi, Headphones } from 'lucide-react';
 
 const servicesData = [
     {
-        title: "Şəbəkə İnfrastrukturu",
-        desc: "LAN/WAN qurulması, kabelləşmə və Wi-Fi optimizasiyası",
+        title: "Network Infrastructure",
+        desc: "LAN/WAN installation, cabling, and Wi-Fi optimization",
         icon: Wifi,
     },
     {
-        title: "Kiber Təhlükəsizlik",
-        desc: "Firewall quraşdırılması, antivirus həlləri və data qorunması",
+        title: "Cybersecurity",
+        desc: "Firewall installation, antivirus solutions, and data protection",
         icon: ShieldCheck,
     },
     {
-        title: "Server İdarəetməsi",
-        desc: "Linux/Windows serverlərin qurulması və 24/7 monitorinq",
+        title: "Server Management",
+        desc: "Linux/Windows server installation and 24/7 monitoring",
         icon: Server,
     },
     {
-        title: "İT Dəstək",
-        desc: "Şirkət daxili texniki problemlərin operativ həlli",
+        title: "IT Support",
+        desc: "Prompt resolution of in-house technical issues",
         icon: Headphones,
     }
 ];
@@ -57,10 +57,10 @@ const Services = () => {
                     className="text-center mb-16"
                 >
                     <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                        Xidmətlərimiz
+                        Our Services
                     </h2>
                     <p className="text-lg text-gray-600">
-                        Biznesinizin ehtiyaclarına uyğun peşəkar həllər
+                        Professional solutions tailored to your business needs
                     </p>
                 </motion.div>
 

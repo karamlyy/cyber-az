@@ -41,25 +41,25 @@ const Navbar = () => {
 
     const serviceCategories = [
         {
-            title: "Şəbəkə Həlləri",
+            title: "Network Solutions",
             services: [
-                { name: "Network Design & Installation", slug: "network-design-installation", tag: "Layihə" },
+                { name: "Network Design & Installation", slug: "network-design-installation", tag: "Design" },
                 { name: "Router & Switch Configuration", slug: "router-switch-config", tag: "Config" },
                 { name: "Wi-Fi Setup & Optimization", slug: "wifi-setup-optimization", tag: "Wi-Fi" },
-                { name: "VLAN & Segmentation", slug: "vlan-segmentation", tag: "Təhlükəsizlik" },
+                { name: "VLAN & Segmentation", slug: "vlan-segmentation", tag: "Security" },
             ]
         },
         {
-            title: "Kiber Təhlükəsizlik",
+            title: "Cybersecurity",
             services: [
-                { name: "Firewall Protection", slug: "firewall-protection", tag: "Müdafiə" },
-                { name: "Antivirus Solutions", slug: "antivirus-solutions", tag: "Qoruma" },
-                { name: "Data Encryption", slug: "data-encryption", tag: "Şifrələmə" },
-                { name: "Penetration Testing", slug: "penetration-testing", tag: "Test" },
+                { name: "Firewall Protection", slug: "firewall-protection", tag: "Defense" },
+                { name: "Antivirus Solutions", slug: "antivirus-solutions", tag: "Protection" },
+                { name: "Data Encryption", slug: "data-encryption", tag: "Encryption" },
+                { name: "Penetration Testing", slug: "penetration-testing", tag: "Testing" },
             ]
         },
         {
-            title: "Bulud & Biznes İT",
+            title: "Cloud & Business IT",
             services: [
                 { name: "Cloud Migration", slug: "cloud-migration", tag: "AWS/Azure" },
                 { name: "Office 365 Setup", slug: "office-365-setup", tag: "M365" },
@@ -67,11 +67,11 @@ const Navbar = () => {
             ]
         },
         {
-            title: "İT Dəstək",
+            title: "IT Support",
             services: [
-                { name: "Remote Support", slug: "remote-support", tag: "Məsafədən" },
-                { name: "On-site Support", slug: "on-site-support", tag: "Yerində" },
-                { name: "Hardware Repair", slug: "hardware-repair", tag: "Təmir" },
+                { name: "Remote Support", slug: "remote-support", tag: "Remote" },
+                { name: "On-site Support", slug: "on-site-support", tag: "On-site" },
+                { name: "Hardware Repair", slug: "hardware-repair", tag: "Repair" },
             ]
         }
     ];
@@ -97,7 +97,7 @@ const Navbar = () => {
                             onClick={() => handleNavClick('home')}
                             className="text-gray-700 hover:text-primary transition-colors font-medium"
                         >
-                            Ana Səhifə
+                            Home
                         </button>
 
                         {/* Services Dropdown */}
@@ -109,7 +109,7 @@ const Navbar = () => {
                             <button
                                 className="flex items-center gap-1 text-gray-700 hover:text-primary transition-colors font-medium"
                             >
-                                Xidmətlər
+                                Services
                                 <ChevronDown 
                                     size={16} 
                                     className={`transition-transform duration-200 ${isServicesOpen ? 'rotate-180' : ''}`}
@@ -130,8 +130,8 @@ const Navbar = () => {
                                         <div className="p-6">
                                             {/* Header */}
                                             <div className="mb-4 pb-4 border-b border-gray-100">
-                                                <h3 className="text-lg font-bold text-gray-900">Xidmətlərimiz</h3>
-                                                <p className="text-sm text-gray-600 mt-1">Biznesiniz üçün tam həllər</p>
+                                                <h3 className="text-lg font-bold text-gray-900">Our Services</h3>
+                                                <p className="text-sm text-gray-600 mt-1">Complete solutions for your business</p>
                                             </div>
 
                                             {/* Service Grid */}
@@ -169,7 +169,7 @@ const Navbar = () => {
                                                     onClick={() => handleNavClick('contact')}
                                                     className="w-full bg-primary hover:bg-secondary text-white font-medium px-4 py-2 rounded-lg transition-colors text-sm"
                                                 >
-                                                    Pulsuz Konsultasiya Alın
+                                                    Get Free Consultation
                                                 </button>
                                             </div>
                                         </div>
@@ -182,19 +182,19 @@ const Navbar = () => {
                             onClick={() => handleNavClick('about')}
                             className="text-gray-700 hover:text-primary transition-colors font-medium"
                         >
-                            Haqqımızda
+                            About
                         </button>
                         <button
                             onClick={() => handleNavClick('industries')}
                             className="text-gray-700 hover:text-primary transition-colors font-medium"
                         >
-                            Sənayelər
+                            Industries
                         </button>
                         <button
                             onClick={() => handleNavClick('contact')}
                             className="bg-primary text-white px-6 py-2 rounded-lg hover:bg-secondary transition-colors font-medium"
                         >
-                            Əlaqə
+                            Contact
                         </button>
                     </div>
 
@@ -222,7 +222,7 @@ const Navbar = () => {
                                 onClick={() => handleNavClick('home')}
                                 className="block w-full text-left text-gray-700 hover:text-primary transition-colors font-medium py-2"
                             >
-                                Ana Səhifə
+                                Home
                             </button>
 
                             {/* Mobile Services Dropdown */}
@@ -231,7 +231,7 @@ const Navbar = () => {
                                     onClick={() => setIsServicesOpen(!isServicesOpen)}
                                     className="flex items-center justify-between w-full text-left text-gray-700 hover:text-primary transition-colors font-medium py-2"
                                 >
-                                    Xidmətlər
+                                    Services
                                     <ChevronDown 
                                         size={16} 
                                         className={`transition-transform duration-200 ${isServicesOpen ? 'rotate-180' : ''}`}
@@ -264,19 +264,19 @@ const Navbar = () => {
                                 onClick={() => handleNavClick('about')}
                                 className="block w-full text-left text-gray-700 hover:text-primary transition-colors font-medium py-2"
                             >
-                                Haqqımızda
+                                About
                             </button>
                             <button
                                 onClick={() => handleNavClick('industries')}
                                 className="block w-full text-left text-gray-700 hover:text-primary transition-colors font-medium py-2"
                             >
-                                Sənayelər
+                                Industries
                             </button>
                             <button
                                 onClick={() => handleNavClick('contact')}
                                 className="block w-full bg-primary text-white px-6 py-2 rounded-lg hover:bg-secondary transition-colors font-medium text-center"
                             >
-                                Əlaqə
+                                Contact
                             </button>
                         </div>
                     </motion.div>

@@ -16,12 +16,12 @@ const ServiceDetail = ({ onRequestService }) => {
         return (
             <div className="min-h-screen flex items-center justify-center pt-20 px-4">
                 <div className="text-center">
-                    <h2 className="text-3xl font-bold text-gray-900 mb-6">Xidmət tapılmadı</h2>
+                    <h2 className="text-3xl font-bold text-gray-900 mb-6">Service not found</h2>
                     <Link 
                         to="/" 
                         className="inline-block bg-primary text-white px-6 py-3 rounded-lg hover:bg-secondary transition-colors"
                     >
-                        Ana Səhifəyə Qayıt
+                        Back to Home
                     </Link>
                 </div>
             </div>
@@ -64,7 +64,7 @@ const ServiceDetail = ({ onRequestService }) => {
                     className="inline-flex items-center gap-2 text-gray-600 hover:text-primary transition-colors mb-8 font-medium"
                 >
                     <ArrowLeft size={20} />
-                    Ana Səhifəyə Qayıt
+                    Back to Home
                 </Link>
 
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
@@ -76,7 +76,7 @@ const ServiceDetail = ({ onRequestService }) => {
                             transition={{ duration: 0.6 }}
                         >
                             <h3 className="text-3xl font-bold text-gray-900 mb-6">
-                                Xidmət Haqqında
+                                About This Service
                             </h3>
                             <div className="prose prose-lg max-w-none space-y-4 text-gray-600">
                                 {service.details.split('\n').map((line, index) => (
@@ -89,24 +89,24 @@ const ServiceDetail = ({ onRequestService }) => {
                             {/* Benefits */}
                             <div className="mt-12 bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl">
                                 <h4 className="text-2xl font-bold text-gray-900 mb-6">
-                                    Niyə Bizi Seçməlisiniz?
+                                    Why Choose Us?
                                 </h4>
                                 <ul className="space-y-4">
                                     <li className="flex items-center gap-3 text-lg text-gray-700">
                                         <CheckCircle size={24} className="text-green-500 flex-shrink-0" />
-                                        <span>Peşəkar və təcrübəli komanda</span>
+                                        <span>Professional and experienced team</span>
                                     </li>
                                     <li className="flex items-center gap-3 text-lg text-gray-700">
                                         <CheckCircle size={24} className="text-green-500 flex-shrink-0" />
-                                        <span>24/7 Texniki Dəstək</span>
+                                        <span>24/7 Technical Support</span>
                                     </li>
                                     <li className="flex items-center gap-3 text-lg text-gray-700">
                                         <CheckCircle size={24} className="text-green-500 flex-shrink-0" />
-                                        <span>Zəmanətli və Keyfiyyətli Xidmət</span>
+                                        <span>Guaranteed Quality Service</span>
                                     </li>
                                     <li className="flex items-center gap-3 text-lg text-gray-700">
                                         <CheckCircle size={24} className="text-green-500 flex-shrink-0" />
-                                        <span>Rəqabətli Qiymət</span>
+                                        <span>Competitive Pricing</span>
                                     </li>
                                 </ul>
                             </div>
@@ -123,10 +123,10 @@ const ServiceDetail = ({ onRequestService }) => {
                         >
                             <div className="bg-white border-t-4 border-primary p-8 rounded-xl shadow-xl">
                                 <h3 className="text-xl font-bold text-gray-900 mb-4">
-                                    Bu xidməti sifariş etmək istəyirsiniz?
+                                    Want to order this service?
                                 </h3>
                                 <p className="text-gray-600 mb-6">
-                                    Mütəxəssislərimizlə əlaqə saxlayın və sizə uyğun həlli tapaq.
+                                    Contact our experts and let's find the right solution for you.
                                 </p>
                                 <motion.button
                                     whileHover={{ scale: 1.02 }}
@@ -134,7 +134,7 @@ const ServiceDetail = ({ onRequestService }) => {
                                     onClick={() => onRequestService(service.title)}
                                     className="w-full bg-primary hover:bg-secondary text-white font-semibold px-6 py-4 rounded-lg transition-colors duration-300 shadow-lg"
                                 >
-                                    Müraciət Et
+                                    Request Service
                                 </motion.button>
                             </div>
                         </motion.div>

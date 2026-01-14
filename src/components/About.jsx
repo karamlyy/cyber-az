@@ -3,10 +3,10 @@ import { Users, Award, TrendingUp, Clock } from 'lucide-react';
 
 const About = () => {
     const stats = [
-        { icon: Users, value: "50+", label: "Daimi Müştəri" },
-        { icon: Award, value: "100+", label: "Tamamlanmış Layihə" },
-        { icon: Clock, value: "10+", label: "İllik Təcrübə" },
-        { icon: TrendingUp, value: "99%", label: "Müştəri Məmnuniyyəti" },
+        { icon: Users, value: "50+", label: "Active Clients" },
+        { icon: Award, value: "100+", label: "Completed Projects" },
+        { icon: Clock, value: "10+", label: "Years of Experience" },
+        { icon: TrendingUp, value: "99%", label: "Client Satisfaction" },
     ];
 
     return (
@@ -21,21 +21,20 @@ const About = () => {
                         transition={{ duration: 0.8 }}
                     >
                         <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                            Haqqımızda
+                            About Us
                         </h2>
                         <div className="space-y-4 text-lg text-gray-600 leading-relaxed">
                             <p>
-                                <span className="font-bold text-primary">IT Solutions Pro</span> olaraq 
-                                məqsədimiz şirkətlərin texnoloji yükünü azaltmaqdır.
+                                As <span className="font-bold text-primary">IT Solutions Pro</span>, 
+                                our mission is to reduce the technology burden on businesses.
                             </p>
                             <p>
-                                10 illik təcrübəmizlə biz sizin rəqəmsal partnyorunuzuq. 
-                                Biz yalnız problem həll etmirik, həm də gələcək problemlərin 
-                                qarşısını alırıq.
+                                With 10 years of experience, we are your digital partner. 
+                                We don't just solve problems; we prevent future ones.
                             </p>
                             <p>
-                                Komandamız ən son texnologiyalar və ən yaxşı praktikalarla 
-                                təchiz edilib ki, sizin biznesinizə maksimum fayda gətirsin.
+                                Our team is equipped with the latest technologies and best practices 
+                                to bring maximum value to your business.
                             </p>
                         </div>
                     </motion.div>

@@ -2,197 +2,197 @@ export const servicesData = {
     // Network Solutions
     "network-design-installation": {
         title: "Network Design & Installation",
-        category: "Şəbəkə Həlləri",
-        description: "Biznesiniz üçün sürətli, etibarlı və genişlənə bilən şəbəkə infrastrukturunun layihələndirilməsi və qurulması.",
+        category: "Network Solutions",
+        description: "Design and installation of fast, reliable, and scalable network infrastructure for your business.",
         details: `
-      Müasir bizneslər üçün dayanıqlı şəbəkə infrastrukturu həyati əhəmiyyət daşıyır. Bizim komandamız sizin ofis və ya obyektiniz üçün ən optimal şəbəkə arxitekturasını hazırlayır.
+      A resilient network infrastructure is vital for modern businesses. Our team prepares the most optimal network architecture for your office or facility.
       
-      Xidmətə daxildir:
-      - Mövcud infrastrukturun analizi
-      - Kabel menecmenti və strukturlaşdırılmış kabelləşmə
-      - Şkaf (Rack) yığılması
-      - Patch panel və rozetkaların montajı
-      - Server otağının təşkili
+      Service includes:
+      - Analysis of existing infrastructure
+      - Cable management and structured cabling
+      - Cabinet (Rack) assembly
+      - Installation of patch panels and outlets
+      - Server room organization
     `
     },
     "router-switch-config": {
         title: "Router & Switch Configuration",
-        category: "Şəbəkə Həlləri",
-        description: "Cisco, MikroTik, Ubiquiti və digər şəbəkə avadanlıqlarının peşəkar konfiqurasiyası.",
+        category: "Network Solutions",
+        description: "Professional configuration of Cisco, MikroTik, Ubiquiti, and other network equipment.",
         details: `
-      Şəbəkə avadanlıqlarının düzgün tənzimlənməsi təhlükəsizlik və performans üçün vacibdir.
+      Proper configuration of network equipment is essential for security and performance.
       
-      Biz nə edirik:
-      - VLAN-ların yaradılması və idarə olunması
-      - Port təhlükəsizliyinin təmin edilməsi
-      - QoS (Quality of Service) tənzimləmələri
-      - Routing protokollarının (OSPF, BGP) sazlanması
-      - VPN tunellərinin qurulması (Site-to-Site, Client-to-Site)
+      What we do:
+      - Creation and management of VLANs
+      - Ensuring port security
+      - QoS (Quality of Service) settings
+      - Configuration of routing protocols (OSPF, BGP)
+      - Setting up VPN tunnels (Site-to-Site, Client-to-Site)
     `
     },
     "wifi-setup-optimization": {
         title: "Wi-Fi Setup & Optimization",
-        category: "Şəbəkə Həlləri",
-        description: "Ofisinizdə \"kor nöqtələr\" olmadan, sürətli və stabil simsiz şəbəkənin qurulması.",
+        category: "Network Solutions",
+        description: "Installation of fast and stable wireless network without \"dead zones\" in your office.",
         details: `
-      Wi-Fi siqnalının zəif olması iş prosesini ləngidə bilər. Biz Access Point-lərin düzgün yerləşdirilməsi ilə bütün ofisi əhatə edən şəbəkə qururuq.
+      Weak Wi-Fi signal can slow down your work processes. We set up a network that covers the entire office with proper placement of Access Points.
       
-      Xidmətlər:
-      - "Heatmap" vasitəsilə siqnalın analizi
-      - Sürətli Roaming (Seamless Roaming) həlləri
-      - Qonaq və işçi şəbəkələrinin izolyasiyası
-      - Simsiz təhlükəsizlik şifrələnməsi (WPA3)
+      Services:
+      - Signal analysis using "Heatmap"
+      - Fast Roaming (Seamless Roaming) solutions
+      - Isolation of guest and employee networks
+      - Wireless security encryption (WPA3)
     `
     },
     "vlan-segmentation": {
         title: "VLAN & Network Segmentation",
-        category: "Şəbəkə Həlləri",
-        description: "Şəbəkə təhlükəsizliyini artırmaq və trafik axınını idarə etmək üçün seqmentasiya.",
+        category: "Network Solutions",
+        description: "Segmentation to increase network security and manage traffic flow.",
         details: `
-      Şəbəkəni virtual hissələrə bölməklə (VLAN) siz departamentlər arası icazəsiz girişin qarşısını alır və ümumi performansı artırırsınız.
+      By dividing the network into virtual parts (VLAN), you prevent unauthorized access between departments and improve overall performance.
       
-      Tətbiq sahələri:
-      - Mühasibatlıq, İR və İT şöbələrinin ayrılması
-      - IP Telefonıya və Kamera sistemlərinin ayrı şəbəkədə işləməsi
-      - Təhlükəsizlik siyasətlərinin tətbiqi
+      Application areas:
+      - Separation of Accounting, HR, and IT departments
+      - Operating IP Telephony and Camera systems on separate networks
+      - Implementation of security policies
     `
     },
 
     // Cybersecurity
     "firewall-protection": {
         title: "Firewall Protection",
-        category: "Kiber Təhlükəsizlik",
-        description: "Şəbəkənizi kənar hücumlardan qorumaq üçün yeni nəsil Firewall həlləri.",
+        category: "Cybersecurity",
+        description: "Next-generation Firewall solutions to protect your network from external attacks.",
         details: `
-      Firewall (Od divarı) sizin şəbəkənizlə internet arasında duran ilk müdafiə xəttidir.
+      Firewall is the first line of defense between your network and the internet.
       
-      Həllərimiz:
-      - Fortinet, Palo Alto, Sophos firewall quraşdırılması
-      - IPS/IDS sistemlərinin aktivləşdirilməsi
-      - Zərərli saytların və tətbiqlərin bloklanması
-      - Trafik monitorinqi və hesabatlılıq
+      Our solutions:
+      - Installation of Fortinet, Palo Alto, Sophos firewalls
+      - Activation of IPS/IDS systems
+      - Blocking malicious sites and applications
+      - Traffic monitoring and reporting
     `
     },
     "antivirus-solutions": {
         title: "Antivirus Solutions",
-        category: "Kiber Təhlükəsizlik",
-        description: "Endpoint Protection platformaları ilə kompüterlərin viruslardan müdafiəsi.",
+        category: "Cybersecurity",
+        description: "Protection of computers from viruses with Endpoint Protection platforms.",
         details: `
-      Sadə antivirusdan daha artığı - EDR (Endpoint Detection and Response) həlləri ilə bütün cihazlarınızı mərkəzləşdirilmiş şəkildə qoruyuruq.
+      More than just antivirus - we protect all your devices centrally with EDR (Endpoint Detection and Response) solutions.
       
-      Xüsusiyyətlər:
-      - Real vaxt rejimində təhdidlərin aşkarlanması
-      - Ransomware (Fidyə virusu) əleyhinə müdafiə
-      - Mərkəzi idarəetmə paneli
-      - Avtomatik yenilənmələr
+      Features:
+      - Real-time threat detection
+      - Protection against Ransomware
+      - Central management panel
+      - Automatic updates
     `
     },
     "data-encryption": {
         title: "Data Encryption",
-        category: "Kiber Təhlükəsizlik",
-        description: "Həssas məlumatlarınızın şifrələnməsi və kənar şəxslərdən qorunması.",
+        category: "Cybersecurity",
+        description: "Encryption and protection of your sensitive data from third parties.",
         details: `
-      Məlumatlarınızın oğurlansa belə oxunmaz olmasını təmin edirik.
+      We ensure that your data remains unreadable even if stolen.
       
-      Xidmətlər:
-      - Disk şifrələnməsi (BitLocker, FileVault)
-      - Email şifrələnməsi
-      - Verilənlər bazası təhlükəsizliyi
+      Services:
+      - Disk encryption (BitLocker, FileVault)
+      - Email encryption
+      - Database security
     `
     },
     "penetration-testing": {
         title: "Penetration Testing",
-        category: "Kiber Təhlükəsizlik",
-        description: "Sistemlərinizin boşluqlarını tapmaq üçün etik haker hücumlarının simulyasiyası.",
+        category: "Cybersecurity",
+        description: "Simulation of ethical hacker attacks to find vulnerabilities in your systems.",
         details: `
-      Biz sisteminizi "sındırırıq" ki, bunu pis niyyətli hakerlər etməsin.
+      We "break" your system so that malicious hackers don't.
       
-      Mərhələlər:
-      - Xarici və daxili pentest
-      - Web tətbiq təhlükəsizliyinin yoxlanılması
-      - Hesabatın hazırlanması və boşluqların aradan qaldırılması
+      Stages:
+      - External and internal pentest
+      - Web application security testing
+      - Preparation of report and elimination of vulnerabilities
     `
     },
 
     // Cloud & Business IT
     "cloud-migration": {
         title: "Cloud Migration",
-        category: "Bulud & Biznes İT",
-        description: "Fiziki serverlərinizin bulud mühitinə (AWS, Azure) təhlükəsiz miqrasiyası.",
+        category: "Cloud & Business IT",
+        description: "Secure migration of your physical servers to cloud environment (AWS, Azure).",
         details: `
-      İnfrastrukturunuzu buluda köçürərək xərclərə qənaət edin və elastiklik qazanın.
+      Save on costs and gain elasticity by moving your infrastructure to the cloud.
       
-      Xidmətə daxildir:
-      - Miqrasiya planının hazırlanması
-      - Virtual maşınların yaradılması
-      - Hybrid bulud həlləri
+      Service includes:
+      - Preparation of migration plan
+      - Creation of virtual machines
+      - Hybrid cloud solutions
     `
     },
     "office-365-setup": {
         title: "Office 365 Setup",
-        category: "Bulud & Biznes İT",
-        description: "Microsoft 365 ekosisteminin qurulması və email miqrasiyası.",
+        category: "Cloud & Business IT",
+        description: "Setup of Microsoft 365 ecosystem and email migration.",
         details: `
-      Komanda işini gücləndirmək üçün Microsoft 365 alətlərindən (Teams, SharePoint, OneDrive) tam gücü ilə istifadə edin.
+      Take full advantage of Microsoft 365 tools (Teams, SharePoint, OneDrive) to enhance team collaboration.
       
-      Xidmətlər:
-      - Korporativ emailin qurulması
-      - Lisenziyalaşdırma
-      - Təhlükəsizlik siyasətlərinin tətbiqi (MFA)
+      Services:
+      - Corporate email setup
+      - Licensing
+      - Implementation of security policies (MFA)
     `
     },
     "data-backup": {
         title: "Data Backup",
-        category: "Bulud & Biznes İT",
-        description: "Məlumat itkisinin qarşısını almaq üçün avtomatik ehtiyat nüsxələmə həlləri.",
+        category: "Cloud & Business IT",
+        description: "Automatic backup solutions to prevent data loss.",
         details: `
-      Verilənlərinizin surətini həm yerli, həm də bulud mühitində saxlayırıq.
+      We store copies of your data both locally and in the cloud.
       
-      Xüsusiyyətlər:
-      - 3-2-1 backup strategiyası
-      - Gündəlik avtomatik backup
-      - Fəlakət anında bərpa (Disaster Recovery) planı
+      Features:
+      - 3-2-1 backup strategy
+      - Daily automatic backup
+      - Disaster Recovery planning
     `
     },
 
     // IT Support
     "remote-support": {
         title: "Remote Support",
-        category: "İT Dəstək",
-        description: "Texniki problemlərin məsafədən operativ həlli.",
+        category: "IT Support",
+        description: "Prompt resolution of technical issues remotely.",
         details: `
-      AnyDesk, TeamViewer və ya RDP vasitəsilə kompüterinizə qoşulub proqram təminatı problemlərini həll edirik.
+      We connect to your computer via AnyDesk, TeamViewer, or RDP to resolve software issues.
       
-      Həll olunan problemlər:
-      - Printer və skaner sazlanması
-      - Proqram xətaları
-      - Email problemləri
+      Issues resolved:
+      - Printer and scanner configuration
+      - Software errors
+      - Email problems
     `
     },
     "on-site-support": {
         title: "On-site Support",
-        category: "İT Dəstək",
-        description: "Ofisinizə gələrək yerində texniki dəstək xidməti.",
+        category: "IT Support",
+        description: "Technical support service by visiting your office.",
         details: `
-      Fiziki müdaxilə tələb edən problemlər üçün mütəxəssisimiz ofisinizə yaxınlaşır.
+      Our specialist comes to your office for issues requiring physical intervention.
       
-      Daxildir:
-      - Kompüterlərin fiziki təmizlənməsi
-      - Kabel problemlərinin həlli
-      - Yeni iş yerlərinin hazırlanması
+      Includes:
+      - Physical cleaning of computers
+      - Resolving cable issues
+      - Preparing new workstations
     `
     },
     "hardware-repair": {
         title: "Hardware Repair",
-        category: "İT Dəstək",
-        description: "Kompüter və serverlərin təmiri və modernizasiyası.",
+        category: "IT Support",
+        description: "Repair and modernization of computers and servers.",
         details: `
-      Köhnəlmiş və ya xarab olmuş hissələrin yenilənməsi.
+      Renewal of outdated or faulty parts.
       
-      Xidmətlər:
-      - SSD/RAM artırılması
-      - Qida blokunun dəyişdirilməsi
-      - Termal pastanın yenilənməsi
+      Services:
+      - SSD/RAM upgrade
+      - Power supply replacement
+      - Thermal paste renewal
     `
     }
 };

@@ -19,32 +19,32 @@ const Footer = () => {
                             IT Solutions Pro
                         </h3>
                         <p className="text-gray-400 mb-4">
-                            Biznesiniz üçün etibarlı texnoloji həllər və peşəkar dəstək.
+                            Reliable technology solutions and professional support for your business.
                         </p>
                     </div>
 
                     {/* Quick Links */}
                     <div>
-                        <h4 className="text-lg font-semibold mb-4">Sürətli Keçidlər</h4>
+                        <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
                         <ul className="space-y-2">
                             <li>
                                 <a href="/#home" className="text-gray-400 hover:text-primary transition-colors">
-                                    Ana Səhifə
+                                    Home
                                 </a>
                             </li>
                             <li>
                                 <a href="/#services" className="text-gray-400 hover:text-primary transition-colors">
-                                    Xidmətlər
+                                    Services
                                 </a>
                             </li>
                             <li>
                                 <a href="/#about" className="text-gray-400 hover:text-primary transition-colors">
-                                    Haqqımızda
+                                    About
                                 </a>
                             </li>
                             <li>
                                 <a href="/#contact" className="text-gray-400 hover:text-primary transition-colors">
-                                    Əlaqə
+                                    Contact
                                 </a>
                             </li>
                         </ul>
@@ -52,22 +52,22 @@ const Footer = () => {
 
                     {/* Services */}
                     <div>
-                        <h4 className="text-lg font-semibold mb-4">Xidmətlərimiz</h4>
+                        <h4 className="text-lg font-semibold mb-4">Our Services</h4>
                         <ul className="space-y-2">
-                            <li className="text-gray-400">Şəbəkə İnfrastrukturu</li>
-                            <li className="text-gray-400">Kiber Təhlükəsizlik</li>
-                            <li className="text-gray-400">Server İdarəetməsi</li>
-                            <li className="text-gray-400">İT Dəstək</li>
+                            <li className="text-gray-400">Network Infrastructure</li>
+                            <li className="text-gray-400">Cybersecurity</li>
+                            <li className="text-gray-400">Server Management</li>
+                            <li className="text-gray-400">IT Support</li>
                         </ul>
                     </div>
 
                     {/* Contact Info */}
                     <div>
-                        <h4 className="text-lg font-semibold mb-4">Əlaqə</h4>
+                        <h4 className="text-lg font-semibold mb-4">Contact</h4>
                         <ul className="space-y-3">
                             <li className="flex items-center gap-2 text-gray-400">
                                 <MapPin size={18} className="text-primary" />
-                                <span>Bakı, Mərkəzi Plaza</span>
+                                <span>Baku, Central Plaza</span>
                             </li>
                             <li className="flex items-center gap-2 text-gray-400">
                                 <Phone size={18} className="text-primary" />
@@ -105,7 +105,7 @@ const Footer = () => {
 
                         {/* Copyright */}
                         <p className="text-gray-400 text-center">
-                            &copy; {new Date().getFullYear()} IT Solutions Pro. Bütün hüquqlar qorunur.
+                            &copy; {new Date().getFullYear()} IT Solutions Pro. All rights reserved.
                         </p>
                     </div>
                 </div>
